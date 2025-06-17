@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/isa-dominguez314.github.io/static/css/main.b01b6454.css",
-    "main.js": "/isa-dominguez314.github.io/static/js/main.98d2fc06.js",
-    "static/media/peace-memoji.png": "/isa-dominguez314.github.io/static/media/peace-memoji.c1c6e7c28d7bd620397a.png",
-    "static/media/tounge-memoji.png": "/isa-dominguez314.github.io/static/media/tounge-memoji.889ce44814003e69d5c3.png",
-    "index.html": "/isa-dominguez314.github.io/index.html",
-    "main.b01b6454.css.map": "/isa-dominguez314.github.io/static/css/main.b01b6454.css.map",
-    "main.98d2fc06.js.map": "/isa-dominguez314.github.io/static/js/main.98d2fc06.js.map"
+    "main.css": "/isa-dominguez/static/css/main.2ef9582f.css",
+    "main.js": "/isa-dominguez/static/js/main.5977ba4d.js",
+    "static/media/peace-memoji.png": "/isa-dominguez/static/media/peace-memoji.c1c6e7c28d7bd620397a.png",
+    "static/media/tounge-memoji.png": "/isa-dominguez/static/media/tounge-memoji.889ce44814003e69d5c3.png",
+    "index.html": "/isa-dominguez/index.html",
+    "main.2ef9582f.css.map": "/isa-dominguez/static/css/main.2ef9582f.css.map",
+    "main.5977ba4d.js.map": "/isa-dominguez/static/js/main.5977ba4d.js.map"
   },
   "entrypoints": [
-    "static/css/main.b01b6454.css",
-    "static/js/main.98d2fc06.js"
+    "static/css/main.2ef9582f.css",
+    "static/js/main.5977ba4d.js"
   ]
 }
