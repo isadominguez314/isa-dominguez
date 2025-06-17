@@ -2,7 +2,7 @@ import React from 'react';
 import '../styles/Experience.css';
 import LaunchIcon from '@mui/icons-material/Launch';
 import CircleIcon from '@mui/icons-material/Circle';
-import { Link} from 'react-router-dom';
+import {Link} from 'react-router-dom';
 
 function Experience () 
 {

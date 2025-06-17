@@ -1,13 +1,12 @@
 import React from 'react';
+import '../styles/Resume.css';
 
-function Resume () 
-{
+function Resume() {
     return (
-        <div>
-            <h1> this is the resume page</h1>
-            <p> fshadjkfhasdfjklasncjlksadcnv aj,bj,nnsdjlvkamn sjlkasdfhnasjdkzc asljdkvb nlhkbsjvdsn ljk ldshjfcvhadsnl jcbdshjkcfhadbs cljahsdbfciljas csadlk</p>
+        <div id="resumeContainer">
+            <embed src="/IsaDominguezResume.pdf" type="application/pdf" style={{ transform: 'scale(1)', transformOrigin: 'top left' }} />
         </div>
-    )   
+    );
 }
 
 export default Resume;

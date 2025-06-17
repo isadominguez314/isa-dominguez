@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import LaunchIcon from '@mui/icons-material/Launch';
 import '../styles/Projects.css';
+import {Link} from 'react-router-dom';
 
 function Projects () 
 {
@@ -30,6 +31,8 @@ function Projects ()
                                 <h6 className="skill"> Node.js </h6>
                                 <h6 className="skill"> Express </h6>
                                 <h6 className="skill"> React </h6>
+                                <h6 className="skill"> Express </h6>
+                                <h6 className="skill"> React </h6>
                                 <a 
                                     href="https://www.google.com"
                                     target="_blank"
@@ -39,10 +42,10 @@ function Projects ()
                                     <LaunchIcon/>
                                 </a>
                             </div>
-                            <p> This was awesome I really liked it ehis was awesome I really liked it etc his was awesome I really liked it etc his was awesome I really liked it etc </p>
+                            <h5> This was awesome I really liked it ehis was awesome I really liked it etc his was awesome I really liked it etc his was awesome I really liked it etc </h5>
 
                         </div> :
-                        <div className="inactiveProject"> <h1> Her Future Coalition</h1> </div>
+                        <div className="inactiveProject"> <Link className="projectTitle"> Her Future Coalition </Link> </div>
                     }
                     
                     </div>
@@ -72,7 +75,7 @@ function Projects ()
                             <p> This was awesome I really liked it ehis was awesome I really liked it etc his was awesome I really liked it etc his was awesome I really liked it etc </p>
 
                         </div> :
-                        <div className="inactiveProject"> <h1> Lyric Game </h1> </div>
+                        <div className="inactiveProject"> <Link className="projectTitle"> Her Future Coalition </Link> </div>
                     }
                     
                     </div>
@@ -102,7 +105,7 @@ function Projects ()
                             <p> This was awesome I really liked it ehis was awesome I really liked it etc his was awesome I really liked it etc his was awesome I really liked it etc </p>
 
                         </div> :
-                        <div> <h1> Her Future Coalition</h1> </div>
+                        <div> <Link className="projectTitle"> Her Future Coalition </Link> </div>
                     }
                     
                     </div>
@@ -134,7 +137,7 @@ function Projects ()
                             <p> This was awesome I really liked it ehis was awesome I really liked it etc his was awesome I really liked it etc his was awesome I really liked it etc </p>
 
                         </div> :
-                        <div> <h1> Her Future Coalition</h1> </div>
+                        <div> <Link className="projectTitle"> Her Future Coalition </Link> </div>
                     }
                     
                     </div>
@@ -164,7 +167,7 @@ function Projects ()
                             <p> This was awesome I really liked it ehis was awesome I really liked it etc his was awesome I really liked it etc his was awesome I really liked it etc </p>
 
                         </div> :
-                        <div> <h1> Her Future Coalition</h1> </div>
+                        <div> <Link className="projectTitle"> Her Future Coalition </Link> </div>
                     }
                     
                     </div>
@@ -194,7 +197,7 @@ function Projects ()
                             <p> This was awesome I really liked it ehis was awesome I really liked it etc his was awesome I really liked it etc his was awesome I really liked it etc </p>
 
                         </div> :
-                        <div> <h1> Her Future Coalition</h1> </div>
+                        <div> <Link className="projectTitle"> Her Future Coalition </Link> </div>
                     }
                     </div>
                 </div>

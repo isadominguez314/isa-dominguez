@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Bevan:ital@0;1&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Orelega+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,100..900;1,100..900&family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Bevan:ital@0;1&family=Crete+Round:ital@0;1&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Orelega+One&family=PT+Serif+Caption:ital@0;1&family=Ponomar&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 :root {
   --background-color: #6c4f9194;
@@ -6,6 +7,10 @@
   --light-color: rgb(219, 201, 228);
   --purple-shadow: 0 0 10px #46156c, 0 0 10px #46156c, 0 0 10px #46156c, 0 0 10px #46156c;
   --light-background: #6c4f9137;
+  --light-text: rgb(250, 240, 255);
+  --header-font: 'Orelega One', cursive;
+  --formal-body-font: 'Merriweather', serif;
+  --casual-body-font: 'aleo', sans-serif;
 }
 
 #app {
@@ -15,9 +20,9 @@
 }
 
 p {
-  font-family: Merriweather, sans-serif;
+  font-family: var(--formal-body-font);
   font-size: 18px;
-  color: white;
+  color: var(--light-text);
 }
 
 .flexRow {

@@ -9,7 +9,7 @@
 
 #experiencePage h2 {
     font-size: 20px;
-    font-family: Merriweather, sans-serif;
+    font-family: var(--casual-body-font);
     color: var(--dark-color)
 }
 
@@ -24,7 +24,7 @@
     text-decoration: none;
     font-size: 40px;
     color: var(--dark-color);
-    font-family: orelega one, cursive;
+    font-family: var(--header-font);
 }
 
 .topLine {
@@ -71,7 +71,6 @@
 .experienceContent {
     flex: 1;
     padding: 20px;
-    box-shadow: 0 4px 8px var(--light-color), 0 6px 20px var(--light-color); 
     margin: 20px;
     box-shadow: 0 10px 20px rgba(53, 15, 82, 0.2),
                 0 6px 6px rgba(53, 15, 82, 0.23); 
@@ -98,7 +97,7 @@
     background-color: var(--light-background);
     align-items: center;
     justify-content: center;
-    font-family: Merriweather, sans-serif;
+    font-family: var(--casual-body-font);
     font-size: 20px;
   }
   
@@ -119,4 +118,7 @@
   .experienceDescription p {
     margin: 5px;
     color: var(--dark-color);
+    font-family: var(--casual-body-font);
   }
+
+  
